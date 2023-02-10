@@ -1,0 +1,309 @@
+CREATE DATABASE
+You are now connected to database "team41_a6" as user "postgres".
+Section 1 Data Generation
+Problem 1
+CREATE TABLE
+CREATE VIEW
+CREATE FUNCTION
+INSERT 0 8
+  x  | y 
+-----+---
+  63 | 5
+ 114 | 8
+ 125 | 1
+ 103 | 7
+  61 | 1
+  93 | 4
+ 109 | 3
+  98 | 4
+  84 | 5
+  92 | 2
+ 108 | 1
+ 107 | 8
+   3 | 7
+   7 | 4
+  65 | 1
+ 144 | 7
+  37 | 3
+  70 | 2
+  86 | 7
+  77 | 8
+   3 | 4
+  76 | 8
+  13 | 4
+   6 | 5
+ 122 | 7
+  99 | 7
+  19 | 8
+ 102 | 2
+  38 | 8
+ 107 | 1
+   3 | 1
+  80 | 1
+  55 | 8
+ 125 | 8
+ 128 | 8
+  72 | 2
+  92 | 3
+ 150 | 2
+  85 | 7
+   4 | 3
+  38 | 4
+   1 | 8
+ 120 | 3
+ 148 | 4
+  31 | 5
+  61 | 1
+  92 | 8
+  38 | 3
+ 120 | 2
+  11 | 7
+  52 | 2
+ 135 | 2
+  44 | 2
+  25 | 8
+  18 | 1
+  74 | 6
+  11 | 8
+ 135 | 1
+  68 | 2
+  95 | 6
+  90 | 3
+  87 | 3
+ 122 | 7
+  21 | 8
+ 121 | 1
+  54 | 1
+ 131 | 6
+  67 | 6
+  12 | 7
+  96 | 6
+  10 | 1
+  38 | 2
+  65 | 3
+ 145 | 8
+   9 | 7
+ 116 | 5
+  72 | 5
+ 148 | 8
+   9 | 8
+  19 | 6
+  13 | 1
+ 137 | 7
+  25 | 4
+  80 | 1
+ 126 | 7
+  35 | 4
+ 144 | 8
+  44 | 5
+  59 | 1
+ 104 | 5
+ 124 | 3
+  24 | 6
+  71 | 5
+  48 | 1
+  76 | 2
+  24 | 5
+  24 | 2
+ 111 | 1
+ 105 | 8
+  65 | 6
+(100 rows)
+
+DELETE 8
+INSERT 0 8
+  x  | y 
+-----+---
+  25 | 8
+ 106 | 2
+ 113 | 8
+  13 | 7
+ 145 | 4
+ 136 | 8
+ 147 | 3
+ 101 | 5
+  53 | 1
+ 109 | 8
+  44 | 4
+ 116 | 1
+ 137 | 7
+ 106 | 1
+ 138 | 5
+ 147 | 7
+  60 | 6
+   5 | 1
+  53 | 7
+  59 | 2
+  98 | 3
+  15 | 2
+   7 | 1
+  78 | 8
+ 146 | 8
+  88 | 1
+  73 | 8
+ 127 | 1
+  31 | 7
+  24 | 2
+  25 | 5
+ 121 | 8
+ 103 | 1
+  72 | 1
+  86 | 3
+ 139 | 1
+  19 | 1
+  69 | 2
+ 130 | 8
+ 100 | 3
+  46 | 1
+  94 | 5
+  25 | 2
+   5 | 1
+  16 | 7
+  42 | 7
+ 146 | 3
+   2 | 7
+ 145 | 4
+   1 | 1
+  91 | 6
+  49 | 8
+ 144 | 2
+  36 | 1
+ 144 | 8
+  88 | 8
+  65 | 5
+ 140 | 8
+  96 | 7
+  27 | 5
+  84 | 2
+ 135 | 5
+  65 | 6
+ 149 | 4
+ 101 | 4
+ 110 | 3
+  79 | 1
+ 121 | 8
+  70 | 1
+  55 | 8
+ 132 | 1
+  27 | 5
+ 119 | 4
+  46 | 8
+ 122 | 3
+  65 | 8
+  47 | 7
+ 113 | 6
+  10 | 6
+ 106 | 6
+  11 | 4
+   8 | 6
+  14 | 8
+ 147 | 4
+  78 | 6
+ 132 | 3
+  16 | 7
+  75 | 6
+ 146 | 2
+ 106 | 8
+  14 | 3
+  52 | 8
+  82 | 4
+  70 | 4
+  69 | 4
+ 129 | 8
+ 126 | 1
+ 109 | 4
+  56 | 5
+  87 | 2
+(100 rows)
+
+DELETE 8
+Problem 2
+DROP TABLE
+CREATE TABLE
+INSERT 0 4
+DROP TABLE
+CREATE TABLE
+INSERT 0 4
+    skill    | prob 
+-------------+------
+ Programming |  0.1
+ AI          |  0.2
+ Networks    |  0.3
+ Databases   |  0.4
+(4 rows)
+
+CREATE FUNCTION
+    skill    | count_rec | total_rec | prob 
+-------------+-----------+-----------+------
+ Databases   |         2 |         9 | 0.22
+ Networks    |         2 |         9 | 0.22
+ Programming |         3 |         9 | 0.33
+ AI          |         2 |         9 | 0.22
+(4 rows)
+
+DROP TABLE
+CREATE TABLE
+DROP TABLE
+CREATE TABLE
+INSERT 0 6
+INSERT 0 14
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE FUNCTION
+CREATE FUNCTION
+Problem 5.a
+ sid  | sname |  major  | byear 
+------+-------+---------+-------
+ s100 | Eric  | CS      |  1988
+ s101 | Nick  | Math    |  1991
+ s102 | Chris | Biology |  1977
+(3 rows)
+
+Problem 5.b
+ sid  | sname  |  major  | byear 
+------+--------+---------+-------
+ s100 | Eric   | CS      |  1988
+ s101 | Nick   | Math    |  1991
+ s102 | Chris  | Biology |  1977
+ s103 | Dinska | CS      |  1978
+(4 rows)
+
+Problem 5.c
+ sid | sname | major | byear 
+-----+-------+-------+-------
+(0 rows)
+
+Problem 6
+CREATE FUNCTION
+CREATE VIEW
+CREATE FUNCTION
+CREATE VIEW
+DROP FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE FUNCTION
+Problem 6.a
+ sid  | sname |  major  | byear 
+------+-------+---------+-------
+ s100 | Eric  | CS      |  1988
+ s101 | Nick  | Math    |  1991
+ s102 | Chris | Biology |  1977
+(3 rows)
+
+Problem 6.b
+ sid  | sname  |  major  | byear 
+------+--------+---------+-------
+ s100 | Eric   | CS      |  1988
+ s101 | Nick   | Math    |  1991
+ s102 | Chris  | Biology |  1977
+ s103 | Dinska | CS      |  1978
+(4 rows)
+
+Problem 6.c
+ sid | sname | major | byear 
+-----+-------+-------+-------
+(0 rows)
+
+You are now connected to database "postgres" as user "postgres".
+DROP DATABASE
